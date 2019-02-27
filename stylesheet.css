@@ -34,7 +34,9 @@
     width: 300px;
     height: 300px;
     border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px; /* 3D effect */
+    position: relative;
+    display: inline-block;
 }
 
 /* This container is needed to position the front and back side */
@@ -50,7 +52,7 @@
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-    display: inline-block;
+    float: left;
 }
 
 /* Position the front and back side */
@@ -69,7 +71,7 @@
 
 /* Style the back side */
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: lightgray;
     color: white;
     transform: rotateY(180deg);
 }
@@ -77,6 +79,11 @@ ol {text-align:center;
 }
 .background {
     background-color: #333333;
-    height:1000;
-    width:1000;
+    height:720px;
+    width:100%;
+}
+.margins {margin-right: 4px;
+          margin-left: 12px;
+          margin-top: 20px;
+          margin-bottom: 4px;
 }
