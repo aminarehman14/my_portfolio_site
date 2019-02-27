@@ -36,7 +36,7 @@
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* 3D effect */
     position: relative;
-    display: inline-block;
+    display: inline-block; /*stacked inline*/
 }
 
 /* This container is needed to position the front and back side */
@@ -75,8 +75,7 @@
     color: white;
     transform: rotateY(180deg);
 }
-ol {text-align:center;
-}
+
 .background {
     background-color: #333333;
     height:720px;
