@@ -6,13 +6,14 @@
 
     /* Style the links inside the navigation bar */
     .topnav a {
-        float: left;
+        float: right;
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
     }
+    #header {float: left;}
 
         /* Change the color of links on hover */
         .topnav a:hover {
@@ -25,3 +26,6 @@
             background-color: #664c4c;
             color: white;
         }
+       
+        /*style the body section on all pages*/
+#bodysection {}
