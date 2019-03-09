@@ -1,14 +1,17 @@
-/* Add a black background color to the top navigation */
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
 
-.topnav {
+
+.navbar {
     background-color: #333;
     overflow: hidden;
-    margin-top: 7px;
-    margin-left: 7px;
 }
 
     /* Style the links inside the navigation bar */
-    .topnav a {
+    .navbar a {
         float: right;
         color: #f2f2f2;
         text-align: center;
@@ -23,16 +26,16 @@
     }
 
         /* Change the color of links on hover */
-        .topnav a:hover {
+        .navbar a:hover {
             background-color: lightslategrey;
             color: black;
         }
 
         /* Add a color to the active/current link */
-        .navbar a.active {
-            background-color: #664c4c;
-            color: white;
-        }
+.navbar a.active {
+    background-color: #A9A9A9;
+    color: white;
+}
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -82,20 +85,24 @@
     background-color: lightgray;
     color: white;
     transform: rotateY(180deg);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
 .background {
     background-color: #333333;
-    height:720px;
-    width:100%;
-    margin-left:5px;
-    margin-top:0px;
+    height: 720px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    /*border: 1px solid #bbb;*/
 }
-.margins {margin-right: 4px;
+/*.margins {margin-right: 4px;
           margin-left: 12px;
           margin-top: 20px;
           margin-bottom: 4px;
-}
+}*/
 .image {
     border: 5px solid #f1f1f1;
     background-color: transparent;
@@ -107,4 +114,8 @@
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;*/
+}
+.card-title{
+    border-bottom:1px solid #333;
+    background-color:#bbb;
 }
