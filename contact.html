@@ -19,7 +19,10 @@
     <!-- Custom styles for coverpage -->
     <link href="C:\Users\Amina Rehman\Documents\csschallenge\cover.css" rel="stylesheet">
     <link href="C:\Users\Amina Rehman\Launchcode\my_portfolio_site\stylesheet.css" rel="stylesheet" />
-    <body class="text-center">
+
+    </head>
+
+    <body class="text-center contact-form-body">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <header class="masthead mb-auto">
                 <div class="inner">
@@ -27,12 +30,27 @@
                     <nav class="nav nav-masthead justify-content-space-between">
                         <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
                         <a class="nav-link" href="skills.html"><i class="fa fa-fw fa-laptop"></i>Skills</a>
-                        <a class="nav-link" href="hobbies.html"><i class="fa fa-fw fa-user"></i>About Me</a>
+                        <a class="nav-link" href="aboutme.html"><i class="fa fa-fw fa-user"></i>About Me</a>
                         <a class="nav-link active" href="contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
 
                     </nav>
                 </div>
             </header>
+            <content>
+                <div class="contact-sheet">
+                    <div class="contact-title">
+                        <h1>Contact Me</h1><br />
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form" method="post" action="contact-form-handler.php">
+                            <input name="name" type="text" class="form-control" placeholder="Name" required /><br />
+                            <input name="email" type="email" class="form-control" placeholder="Email" required /><br />
+                            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br />
+                            <input type="Submit" class="form-control submit" value="Send Message" />
+                        </form>
+                    </div>
+                </div>
+            </content>
 
             <footer class="mastfoot mt-auto">
                 <div class="inner">
@@ -41,20 +59,16 @@
             </footer>
         </div>
 
-</head>
-
-<body>
-
-</body>
+    </body>
 
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="../../assets/js/vendor/popper.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
 </body>
 </html>
