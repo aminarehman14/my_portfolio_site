@@ -163,24 +163,14 @@ body {
     width: 100%;
     margin-left: 0px;
     margin-top: 30px;
-    /*border: 1px solid #bbb;*/
 }
-/*.margins {margin-right: 4px;
-          margin-left: 12px;
-          margin-top: 20px;
-          margin-bottom: 4px;
-}*/
+
 .image {
     border: 5px solid #f1f1f1;
     background-color: transparent;
-    /*width: 400px;
-    height: 500px;*/
     position: relative;
     display: inline-block; /*stacked inline*/
-    /*padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;*/
+
 }
 
 .card-title {
