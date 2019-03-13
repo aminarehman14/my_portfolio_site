@@ -98,23 +98,21 @@ body {
     margin-top: 0px;
     /*border: 1px solid #bbb;*/
 }
-/*.margins {margin-right: 4px;
+.margins {margin-right: 4px;
           margin-left: 12px;
           margin-top: 20px;
           margin-bottom: 4px;
-}*/
+}
 .image {
     border: 5px solid #f1f1f1;
     background-color: transparent;
     /*width: 400px;
     height: 500px;*/
     position: relative;
-    display: inline-block; /*stacked inline*/
-    /*padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;*/
+    display: inline-block; 
+    /*stacked inline*/
 }
+
 .card-title{
     border-bottom:1px solid #333;
     background-color:#bbb;
@@ -153,6 +151,12 @@ form {
     margin-top: 100px;
     color: #fff;
     text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.skillsdiv {
+    margin-top: 10px;
+    color: #fff;
     transition: all 4s ease-in-out;
 }
 
@@ -203,6 +207,12 @@ form .submit:hover {
     background-color: lightgrey;
     cursor: pointer;
 
+}
+
+.contact-form-body {
+    background: linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url(images/profile.png);
+    transition: all 4s ease-in-out;
+    color: #fff;
 }
 
 .contact-form-body {
