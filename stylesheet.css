@@ -1,12 +1,12 @@
 html,
 body {
     height: 100%;
-    background-color: lightgray;
+    background-color: transparent;
 }
 
 
 .navbar {
-    background-color: #333;
+    background-color: transparent;
     overflow: hidden;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .background {
-    background-color: #333333;
+    background-color: transparent;
     height: 720px;
     width: 100%;
     margin-left: 0px;
@@ -125,9 +125,18 @@ body {
 
 
 /*Contact Me CSS*/
+.contact-sheet {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
 form {
     margin-top: 50px;
     transition: all 4s ease-in-out;
+    
 }
 
 
@@ -202,4 +211,6 @@ form .submit:hover {
     color: #fff;
 }
 
-
+.btn-lg{
+    background-color: transparent;
+}
