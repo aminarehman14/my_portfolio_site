@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
     background-color: lightgrey;
-    /*overflow-y: hidden;*/
+    overflow-y: hidden;
 }
 body {
     margin: 0;
@@ -247,4 +247,8 @@ form .submit:hover {
 
 .btn-lg{
     background-color: transparent;
+}
+.header-background-video-stretch {
+    /*width: 3425px !important;*/
+    height: 100% !important;
 }
